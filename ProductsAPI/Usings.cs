@@ -1,0 +1,21 @@
+global using SqlKata;
+global using SqlKata.Compilers;
+global using SqlKata.Execution;
+global using System.Net;
+global using System.Data.SqlClient;
+global using System.Reflection;
+global using System.Text.Json;
+global using System.Globalization;
+global using System.ComponentModel.DataAnnotations;
+global using System.Text.Json.Serialization;
+global using Microsoft.AspNetCore.Mvc;
+global using Microsoft.OpenApi.Models;
+global using ProductsAPI.Enums;
+global using ProductsAPI.Models;
+global using ProductsAPI.Queries;
+global using ProductsAPI.Data.Helpers;
+global using ProductsAPI.Data.Repositories;
+global using ProductsAPI.Data.Context;
+global using ProductsAPI.Commons;
+global using ProductsAPI.Middlewares;
+
